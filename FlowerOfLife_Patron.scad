@@ -5,13 +5,12 @@ Patrón flower of life - shape pattern
 
 // parámetros patrón 
 
-
-radio=30;       // tamaño de cada unidade -- unit size
+radio=30;		// tamaño de cada unidade -- unit size
 grosor=2;       // Ancho das liñas -- thickess of lines
 altura=2;       // Higth
 xiro=0;         // Rotation
-item=3;
-fn=10;           // circle:72(flower of life), hexagon:6, square:4, etc
+item=3;         // Iterations
+fn=10;          // circle:36(flower of life), hexagon:6, square:4, etc
 
 
 
@@ -41,7 +40,7 @@ module hexFlower (rad, g, item){
 }
 
 
-
 // Xerar o patrón -- Generate the pattern
 
 linear_extrude (altura) hexFlower(radio, grosor, item);
+
