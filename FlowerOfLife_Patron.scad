@@ -1,5 +1,6 @@
 /* 
 Patrón flower of life - shape pattern
+OpenSCAD
 100Hex -- https://www.thingiverse.com/thing:2477471
 */
 
